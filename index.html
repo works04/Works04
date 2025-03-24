@@ -377,19 +377,7 @@
         }
 
         createBubbles();
-function clearData() {
-            if (confirm("Apakah kamu yakin ingin menghapus data ini?")) {
-                rewardCount = 0;
-                balance = 0;
-                localStorage.removeItem("rewardCount");
-                localStorage.removeItem("balance");
-                document.getElementById("reward-count").innerText = "0";
-                document.getElementById("balance").innerText = "0.000";
-                alert("Data berhasil dihapus!");
-            } else {
-                alert("Penghapusan data dibatalkan.");
-            }
-        }
+
         
     // Rewarded Popup
 
